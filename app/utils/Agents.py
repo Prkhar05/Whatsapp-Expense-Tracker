@@ -9,7 +9,7 @@ import datetime
 
 logging.basicConfig(level=logging.INFO)
 
-load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '../../', 'example.env'), override=True)
+load_dotenv()
 
 # Setting up the Groq client
 client = Groq(

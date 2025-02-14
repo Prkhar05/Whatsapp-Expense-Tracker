@@ -11,7 +11,7 @@ import pandas as pd
 import re
 
 
-load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '../../', 'example.env'), override=True)
+load_dotenv()
 
 client = Groq(
     api_key=os.environ.get("GROQ_API_KEY"),
