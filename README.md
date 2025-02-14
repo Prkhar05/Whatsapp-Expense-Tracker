@@ -1,9 +1,10 @@
 # WhatsApp Expense Tracker
 
-The **WhatsApp Expense Tracker** is a Python-based application designed to help users track their expenses through WhatsApp messages. By parsing exported WhatsApp chat data, the application extracts and organizes expense information into a structured format, and provide expense-related answers based on user queries.
+The **WhatsApp Expense Tracker** is a LLM-based Chatbot designed to help users track their expenses through WhatsApp messages. By parsing exported WhatsApp chat data, the application extracts and organizes expense information into a structured format, and provide expense-related answers based on user queries.
 
 ## Features
 
+- **Powered by Groq LLM**: Leverages Groq's advanced language models api inferences to enable intelligent expense tracking and user interactions.
 - **Send & Receive Messages on WhatsApp**: Connects the bot with the WhatsApp API to allow users to interact through chat messages.
 - **Understanding Natural Language Messages**: The bot understands natural language, identifying whether the user wants to add an expense or inquire about their expenses.
 - **Adding Expenses**: Users can send expenses in natural language, e.g., "Spent 500Rs on a latte at Starbucks." to the bot.
